@@ -1,0 +1,39 @@
+:root {
+  --nav-height: 10vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  height: var(--nav-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+.site-title {
+  color: #1a1a1a;
+  font-weight: 700;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav > ul > li > a {
+  font-weight: 700;
+  background-color: bisque;
+  color: #1a1a1a;
+  text-decoration: none;
+}

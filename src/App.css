@@ -1,0 +1,9 @@
+:root {
+  --nav-height: 7.5vh;
+}
+
+.container {
+  height: calc(99vh - var(--nav-height));
+  display: flex;
+}
+
